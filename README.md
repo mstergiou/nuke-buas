@@ -2,6 +2,9 @@
 
 Tools for the Film VFX students of BUas.
 
+## Tools
+1. Convert Paths to Relative
+
 ## Installation
 Download and copy the contents of the .nuke folder in your .nuke folder.
 
