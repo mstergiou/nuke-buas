@@ -31,4 +31,3 @@ def relative_paths():
         # nuke.ask('Finished converting paths to relative.\nDo you want to overwrite it?')
     else:
         nuke.alert('The script is not saved yet :(\nSave it and then try again.')
-
