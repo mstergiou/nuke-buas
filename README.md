@@ -1,6 +1,6 @@
 # nuke-buas
 
-Tools for the Film VFX students of BUas.
+Tools for the BUas' Film VFX students.
 
 ## Tools
 1. Convert Paths to Relative
