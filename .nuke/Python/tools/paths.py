@@ -1,9 +1,9 @@
-__author__ = 'Makis Stergiou'
-__course__ = 'BUas FVFX Y1'
-
 import nuke
 import os
 from pathlib import PureWindowsPath
+
+__author__ = 'Makis Stergiou'
+__course__ = 'BUas FVFX Y1'
 
 def relative_paths():
     """Converts absolute paths to relative and sets the project directory"""
