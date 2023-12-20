@@ -1,5 +1,8 @@
 import nuke
 
+__author__ = 'Makis Stergiou'
+__course__ = 'BUas FVFX Y1'
+
 if not nuke.env['studio']:
 
 	nuke.pluginAddPath('Python')
