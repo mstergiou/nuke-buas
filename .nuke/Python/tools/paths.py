@@ -1,3 +1,6 @@
+__author__ = 'Makis Stergiou'
+__course__ = 'BUas FVFX Y1'
+
 import nuke
 import os
 from pathlib import PureWindowsPath
