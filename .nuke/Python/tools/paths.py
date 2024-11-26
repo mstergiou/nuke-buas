@@ -22,12 +22,13 @@ def relative_paths():
             # If instead node['file'].value() is used:
             # path = os.path.normpath(os.path.join(script_directory, path))
 
-            relative = os.path.relpath(path, script_directory)
-            # Convert it if windows
-            if os.name == 'nt':
-                relative = PureWindowsPath(relative).as_posix()
-
-            node['file'].setValue(relative)
+            if path:
+                relative = os.path.relpath(path, script_directory)
+                # Convert it if windows
+                if os.name == 'nt':
+                    relative = PureWindowsPath(relative).as_posix()
+    
+                node['file'].setValue(relative)
 
         nuke.message('Finished converting paths to relative.\nIf there are no errors, SAVE the script.')
         # Maybe we save the script for them?
